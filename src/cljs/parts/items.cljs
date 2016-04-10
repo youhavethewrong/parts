@@ -4,13 +4,13 @@
   [
    {:name "2011 Toyota Corolla LE"
     :parts {"Motor Oil" ["0w20 Synthetic"]
-            "Oil Filter" ["Taco 12"]}}
+            "Oil Filter" ["TBD"]}}
    {:name "2006 Toyota Camry"
     :parts {"Motor Oil" ["10w30 Conventional"]
-            "Oil Filter" ["Taco 12"]}}
+            "Oil Filter" ["TBD"]}}
    {:name "1982 Honda CB750F SuperSport"
     :parts {"Motor Oil" ["10w40 Synthetic"]
-            "Oil Filter" ["Taco 12"]}}
+            "Oil Filter" ["FRAM CH6009" "Mobile1 M1MC-171"]}}
    {:name "1996 Simplicity Lawn Tractor"
     :parts {"Motor Oil" ["10w30 Conventional"]
             "Oil Filter" ["Wix 51348"]}}
