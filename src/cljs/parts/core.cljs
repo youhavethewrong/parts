@@ -6,23 +6,20 @@
 (enable-console-print!)
 
 (def app-state
-  (reagent/atom {:completed []}))
+  (reagent/atom {}))
 
-(declare fetch-maintenance handle-maintenance)
-
-(defn maint-item
-  [m]
-  [:tr
-   [:td (:name m)]
-   [:td (:parts m)]])
-
-(defn maintenance-list
+(defn good-parts-list
   []
-  [:div
-   [:table.table
-    (for [m @app-state]
-      (maint-item m))
-    ]])
+  [:div.row-fluid
+   [:div.span12
+    (for [{:keys [name parts]} @app-state]
+      [:div.row-fluid.well
+       [:div.span12 [:strong name]]
+       (for [part parts]
+         [:div.row-fluid
+          [:div.span4.offset4 (key part)]
+          [:div.span4 (first (val part))]]
+         )])]])
 
 (defn log-app
   []
@@ -34,8 +31,8 @@
        [:a {:href "//youhavethewrong.info"}
         "YouHaveTheWrong.info"]]]]]
    [:div {:id :content :class :container}
-    [:h1 {:id :h1} "Maintenance log"]
-    [maintenance-list]
+    [:h1 {:id :h1} "Common maintenance parts for durable goods"]
+    [good-parts-list]
     ]])
 
 (defn render
@@ -44,15 +41,15 @@
    [log-app]
    (.getElementById js/document "app")))
 
-(defn handle-maintenance
-  [maintenance]
-  (reset! app-state maintenance)
+(defn handle-items
+  [items]
+  (reset! app-state items)
   (render))
 
-(defn fetch-maintenance
+(defn fetch-items
   [f]
   (f items/inventory))
 
 (defn start
   []
-  (fetch-maintenance handle-maintenance))
+  (fetch-items handle-items))
