@@ -13,7 +13,8 @@
             "Oil Filter" ["FRAM CH6009" "Mobile1 M1MC-171"]}}
    {:name "1996 Simplicity Lawn Tractor"
     :parts {"Motor Oil" ["10w30 Conventional"]
-            "Oil Filter" ["Wix 51348"]}}
+            "Oil Filter" ["Wix 51348"]
+            "Spark Plug" ["Champion RC12YC"]}}
    {:name "2008 Yard Machines Snow Blower"
     :parts {"Motor Oil" ["10w30 Conventional"]}}
    {:name "2011 Trimmer"
