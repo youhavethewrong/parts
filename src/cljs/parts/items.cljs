@@ -14,7 +14,8 @@
    {:name "1996 Simplicity Lawn Tractor"
     :parts {"Motor Oil" ["10w30 Conventional"]
             "Oil Filter" ["Wix 51348"]
-            "Spark Plug" ["Champion RC12YC"]}}
+            "Spark Plug" ["Champion RC12YC"
+                          "Champion 71"]}}
    {:name "2008 Yard Machines Snow Blower"
     :parts {"Motor Oil" ["10w30 Conventional"]}}
    {:name "2011 Trimmer"
