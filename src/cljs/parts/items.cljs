@@ -4,8 +4,8 @@
   [
    {:name "2011 Toyota Corolla LE"
     :parts {"Motor Oil" ["0w20 Synthetic"]
-            "Oil Filter" ["FRAM CH10358"
-                          "FRAM TG10358"]}}
+            "Oil Filter" ["FRAM CH10358" "FRAM TG10358" "Toyota 04152-YZZA6" "Purolator L16311"
+                          "K&N PS-7021" "Wix 57064" "ACDelco PF1768" "Mann ML 1048" "Hastings #LF640"]}}
    {:name "2006 Toyota Camry"
     :parts {"Motor Oil" ["10w30 Conventional"]
             "Oil Filter" ["TBD"]}}
@@ -25,7 +25,8 @@
    {:name "2014 Leaf Blower"
     :parts {"Motor Oil" ["10w30 Conventional (40:1)"]}}
    {:name "2004 Whirlpool Refrigerator"
-    :parts {"Water/Ice Filter" ["Maytag 8212652"]
+    :parts {"Water/Ice Filter" ["Maytag 8212652"
+                                "Puritas PUR-00"]
             "Ice Maker" ["Whirlpool 2198597A"]}}
    ;; {:name ""
    ;;  :parts {"" [""]}}
