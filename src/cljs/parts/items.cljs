@@ -8,7 +8,7 @@
                           "K&N PS-7021" "Wix 57064" "ACDelco PF1768" "Mann ML 1048" "Hastings #LF640"]}}
    {:name "2006 Toyota Camry"
     :parts {"Motor Oil" ["10w30 Conventional"]
-            "Oil Filter" ["TBD"]}}
+            "Oil Filter" ["FRAM HM4386"]}}
    {:name "1982 Honda CB750F SuperSport"
     :parts {"Motor Oil" ["10w40 Synthetic"]
             "Oil Filter" ["FRAM CH6009"
